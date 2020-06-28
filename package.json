@@ -9,6 +9,7 @@
   },
   "dependencies": {},
   "scripts": {
-    "start": "tsc -p . && lite-server"
+    "build": "tsc -w -p .",
+    "start": "lite-server"
   }
 }
